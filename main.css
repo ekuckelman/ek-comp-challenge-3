@@ -18,22 +18,22 @@ li:hover {
 
 
 .side-bar {
-  width: 15%;
+  width: 12%;
   background-color:#2c8437d1;
   color: #313335;
   height: 100vh;
   font-size: 1.1em;
 }
 
-.side-article p {
+.side-bar p {
   margin: 10px 0 10px 10px;
 }
 
 .pro-pic {
   width: 100px;
   height: 100px;
-  margin: 28px;
-  border-radius: 65%;
+  margin: 15px 30px 0 30px;
+  border-radius: 50%;
 }
 
 .severus {
@@ -51,4 +51,50 @@ li:hover {
 .list-icon {
   width: 20px;
   margin-right: 5px;
+}
+
+.right-side {
+  background-color: #777C80;
+  width: 88%;
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  top: 0px;
+  height: 100vh;
+}
+
+.top-nav {
+  border-bottom: 2px solid;
+}
+
+.nav-btn { 
+  font-size: 2.5em;
+  background-color: transparent;
+  border: none;
+  width: 5.85%;
+  height: 2em;
+  outline: none;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color:#2c8437d1;
+} 
+
+.menu-btn,
+.profile-btn,
+.calendar-btn
+ {
+  border-right: 2px solid;
+}
+
+.search-bar {
+  width: 75%;
+  height: 2.8em;
+  font-size: 1.5em;
+  border: none;
+}
+
+.profile-btn {
+  border-left: 2px solid; 
 }
