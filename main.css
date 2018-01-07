@@ -16,6 +16,10 @@ li:hover {
   color: white;
 }
 
+i {
+  margin-right: 5px;
+}
+
 
 .side-bar {
   width: 12%;
