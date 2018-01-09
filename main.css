@@ -58,7 +58,7 @@ i {
 }
 
 .right-side {
-  background-color: #777C80;
+  background-color: #acadaf;
   width: 88%;
   position: absolute;
   display: inline-block;
@@ -68,16 +68,18 @@ i {
 }
 
 .top-nav {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid #313335;
 }
 
 .nav-btn { 
-  font-size: 2.5em;
+  font-size: 1.5em;
   background-color: transparent;
   border: none;
   width: 5.85%;
-  height: 2em;
+  height: 2.5em;
   outline: none;
+  color: #313335;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -89,16 +91,144 @@ i {
 .profile-btn,
 .calendar-btn
  {
-  border-right: 2px solid;
+  border-right: 1px solid;
 }
 
 .search-bar {
   width: 75%;
-  height: 2.8em;
+  height: 2em;
   font-size: 1.5em;
   border: none;
+  background-color: transparent;
+  outline: none;
 }
 
 .profile-btn {
-  border-left: 2px solid; 
+  border-left: 1px solid; 
 }
+
+.second-nav {
+  width: 100%;
+  margin-left: 1em;
+}
+
+.job-info {
+  display: inline-block;
+  position: relative;
+  margin: 2em 0 2em 1em;
+  color: #313335;
+}
+
+.job-info h5 {
+  display: inline-block;
+}
+
+.preview {
+  color: #1b9cc6;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+.job-btns {
+  display: inline-block;
+  position: absolute;
+  right: 2em;
+  top: 6em;
+  color: #313335;
+}
+
+.job-btn {
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1em;
+  color: #313335;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.job-btn:hover {
+  color: #2c8437d1;
+}
+
+.open {
+  padding: 8px 10px;
+}
+
+.bookmark {
+  padding: 10px 12px;
+}
+
+.vertical-list {
+  margin-bottom: 1em;
+}
+
+.vertical-list li {
+  display: inline;
+  font-size: .9em;
+  margin-right: 30px;
+  padding-bottom: 1em;
+}
+
+.vertical-list li:hover {
+  border-bottom: 2px solid #2c8437d1;
+}
+
+.main-content {
+  background-color: #e5e6e8;
+  display: flex;
+}
+
+.circle {
+  border: 7px solid;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  color:#313335;
+}
+
+.circle h2 {
+  padding-top: 1.3em;
+}
+
+.first-circle {
+  margin: 3em 1em 1em 2em;
+  border-color: #522E6E #522E6E #522E6E white;
+}
+
+.second-circle {
+  margin-right: 1em;
+  border-color: #1b9cc6 #1b9cc6 white white;
+}
+
+.third-circle {
+  border-color: #EC4A2E white white white;
+}
+
+.chart {
+  width: 530px;
+  height: 220px;
+  margin: 2em 2em .2em 2em;
+}
+
+.total-btn {
+  border-radius: 30px;
+  font-size: 1em;
+  color: #313335;
+  margin-left: 14.5em;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+
+.stats-btn {
+  border-radius: 30px;
+  font-size: 1em;
+  color: #313335;
+  margin-left: 13em;
+  margin-bottom: 3em;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+
+
