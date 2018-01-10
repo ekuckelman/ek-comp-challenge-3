@@ -1,5 +1,12 @@
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 2900px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
 }
 
 ul {
@@ -25,7 +32,7 @@ i {
   width: 12%;
   background-color:#2c8437d1;
   color: #313335;
-  height: 100vh;
+  /*height: 100vh;*/
   font-size: 1.1em;
 }
 
@@ -44,6 +51,10 @@ i {
   display: inline-block;
 }
 
+.snape-arrow {
+   font-size: 1.7em;
+}
+
 .side-article {
   border-bottom: 1px solid #5D5854;
 }
@@ -58,13 +69,12 @@ i {
 }
 
 .right-side {
-  background-color: #acadaf;
+  background-color: #bcbcbd;
   width: 88%;
   position: absolute;
   display: inline-block;
   right: 0px;
   top: 0px;
-  height: 100vh;
 }
 
 .top-nav {
@@ -154,6 +164,10 @@ i {
   padding: 8px 10px;
 }
 
+.green-circle {
+  width: 10px;
+}
+
 .bookmark {
   padding: 10px 12px;
 }
@@ -189,7 +203,7 @@ i {
 }
 
 .circle h2 {
-  padding-top: 1.3em;
+  padding-top: 2.3em;
 }
 
 .first-circle {
@@ -231,4 +245,98 @@ i {
   padding: 8px 20px;
 }
 
+.bottom-content {
+  background-color: #e5e6e8;
+  display: flex;
+} 
+
+.table {
+  background-color: white;
+  width: 800px;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 2em;
+  color: #313335;
+}
+
+td {
+  padding: 10px;
+}
+
+table tr {
+  border-bottom: 1px solid;
+}
+
+.top-row {
+  background-color: 
+}
+
+.albus {
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+}
+
+.bottom-row {
+  border: none;
+}
+
+.column-one {
+  width: 13em;
+  padding: 2.5em 0;
+  font-weight: bold;
+}
+
+.right-of-table-boxes {
+
+}
+
+.right-of-table-box1 {
+  margin-left: 2em;
+}
+
+.social-btn {
+  display: block;
+  font-size: 1em;
+  width: 23em;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.social-icons {
+  position: absolute;
+  left: 15px;
+}
+
+.facebook {
+  background-color: #5070BA;
+}
+
+.facebook:hover {
+  background-color: #3c5794;
+}
+
+.twitter {
+  background-color: #47A7E9;
+}
+
+.twitter:hover {
+  background-color: #347cad;
+}
+
+.google {
+  background-color: #AE2626;
+}
+
+.right-of-table-box2 {
+
+}
 
