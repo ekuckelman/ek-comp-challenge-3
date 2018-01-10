@@ -4,7 +4,7 @@ This project is meant to strengthen our css muscles! The instructors gave us the
 
 
 # Original Comp
-![original-comp](static-comp-3.jpg "Original Comp")
+![original-comp](static-comp-challenge-3.jpg "Original Comp")
 
 # My Version
-![my-comp](myversion.png "Our Comp")
+![my-comp](my version.png "MY Comp")
