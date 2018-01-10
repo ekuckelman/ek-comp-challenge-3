@@ -3,10 +3,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body {
-  height: 100%;
-}
-
 ul {
   padding-left: 20px;
 }
@@ -25,12 +21,11 @@ i {
   margin-right: 5px;
 }
 
-
 .side-bar {
   width: 12%;
   background-color:#2c8437d1;
   color: #313335;
-  /*height: 100vh;*/
+  height: 1492px;
   font-size: 1.1em;
 }
 
@@ -382,7 +377,74 @@ td {
   border-bottom: none;
 }
 
+@media screen and (min-width: 1800px){
+  .side-bar {
+    height: 1574px;
+  }
+  
+  .circles-article {
+    margin-left: 9em;
+  }
+
+  .second-circle {
+    margin-bottom: 2em;
+  }
+
+  .chart {
+    margin-left: 15em;
+  }
+
+  .stats-btn {
+    margin: 1em 0;
+    position: absolute;
+    right: 14em;
+  }
+
+  .main-content {
+    padding-bottom: 2em;
+  }
+
+  .table {
+    width: 60em;
+  }
+  
+  .right-of-table-box1 {
+    margin-left: 5em;
+  }
+  
+  .right-of-table-box2 {
+    width: 33em;
+    margin: 3em 5em;
+  }
+
+  .right-of-table-box2 p {
+    padding: 2em 0;
+  }
+
+  .social-btn {
+    width: 33em;
+  }
+
+  .side-inputs {
+    width: 33em;
+  }
+  
+  .side-inputs-btn {
+    width: 12em;
+  }
+
+  .bottom-input {
+    width: 45em;
+  }
+
+}
+
+
 @media screen and (max-width: 770px) {
+  .side-bar {
+  height: 1329px;
+  }
+
   .pro-pic {
     width: 4em;
     height: 4em;
@@ -517,6 +579,7 @@ td {
 @media screen and (max-width: 320px) {
   .side-bar {
     width: 20%;
+    height: 2050px;
   }
 
   .right-side {
