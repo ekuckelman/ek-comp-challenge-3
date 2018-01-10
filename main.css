@@ -4,9 +4,7 @@
 }
 
 body {
-  height: 2900px;
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  height: 100%;
 }
 
 ul {
@@ -16,7 +14,7 @@ ul {
 li {
   list-style: none;
   cursor: pointer;
-  margin: 3px 0;
+  margin: 16px 0;
 }
 
 li:hover {
@@ -285,9 +283,8 @@ table tr {
 }
 
 .albus {
-  border-radius: 50%;
-  width: 4em;
-  height: 4em;
+  font-size: 2em;
+  margin-right: .5em;
 }
 
 .bottom-row {
