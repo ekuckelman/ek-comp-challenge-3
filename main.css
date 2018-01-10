@@ -285,9 +285,8 @@ table tr {
 }
 
 .albus {
-  border-radius: 50%;
-  width: 4em;
-  height: 4em;
+  font-size: 2em;
+  margin-right: .5em;
 }
 
 .bottom-row {
