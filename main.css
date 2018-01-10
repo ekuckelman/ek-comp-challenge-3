@@ -3,10 +3,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body {
-  height: 100%;
-}
-
 ul {
   padding-left: 20px;
 }
@@ -25,12 +21,11 @@ i {
   margin-right: 5px;
 }
 
-
 .side-bar {
   width: 12%;
   background-color:#2c8437d1;
   color: #313335;
-  /*height: 100vh;*/
+  height: 1492px;
   font-size: 1.1em;
 }
 
@@ -218,6 +213,10 @@ i {
   border-color: #EC4A2E white white white;
 }
 
+.chart-article {
+  height: 100%;
+}
+
 .chart {
   width: 530px;
   height: 220px;
@@ -270,16 +269,12 @@ table {
   color: #313335;
 }
 
-td {
-  padding: 10px;
-}
-
 table tr {
   border-bottom: 1px solid;
 }
 
-.top-row {
-  background-color: 
+td {
+  padding: 10px;
 }
 
 .albus {
@@ -380,4 +375,322 @@ table tr {
 
 .bottom-bx {
   border-bottom: none;
+}
+
+@media screen and (min-width: 1800px){
+  .side-bar {
+    height: 1574px;
+  }
+  
+  .circles-article {
+    margin-left: 9em;
+  }
+
+  .second-circle {
+    margin-bottom: 2em;
+  }
+
+  .chart {
+    margin-left: 15em;
+  }
+
+  .stats-btn {
+    margin: 1em 0;
+    position: absolute;
+    right: 14em;
+  }
+
+  .main-content {
+    padding-bottom: 2em;
+  }
+
+  .table {
+    width: 60em;
+  }
+  
+  .right-of-table-box1 {
+    margin-left: 5em;
+  }
+  
+  .right-of-table-box2 {
+    width: 33em;
+    margin: 3em 5em;
+  }
+
+  .right-of-table-box2 p {
+    padding: 2em 0;
+  }
+
+  .social-btn {
+    width: 33em;
+  }
+
+  .side-inputs {
+    width: 33em;
+  }
+  
+  .side-inputs-btn {
+    width: 12em;
+  }
+
+  .bottom-input {
+    width: 45em;
+  }
+
+}
+
+
+@media screen and (max-width: 770px) {
+  .side-bar {
+  height: 1329px;
+  }
+
+  .pro-pic {
+    width: 4em;
+    height: 4em;
+    margin: 1em 1em 0 .6em;
+    border-radius: 50%;
+  }
+
+   .side-bar p {
+    margin: .5em;
+    font-size: .8em;
+  }
+  
+  .side-bar li {
+    margin: 1em 0;
+    font-size: 0.6em;
+  }
+
+  .list-icon {
+    width: 10px;
+  }
+
+  .nav-btn {
+    font-size: 1em;
+    width: 5.5%;
+    height: 1.5em;
+    padding-top: .2em;
+  }
+
+  .search-bar {
+    height: 1em;
+    font-size: .7em;
+  }
+
+  .job-info {
+   margin: 1em 0 2em 1em;
+  }
+  
+  .second-nav {
+    margin-left: 0;
+  }
+
+  .job-btns {
+    right: .2em;
+    top: 3em;
+  }
+
+  .vertical-list li {
+    font-size: 0.8em;
+  }
+
+  .first-circle {
+    margin: 0;
+  }
+
+  .circles {
+    width: 55px;
+    height: 55px;
+    margin-left: 1.5em;
+    margin-top: 1em;
+  }
+
+  .circles p {
+    font-size: .5em;
+  }
+
+  .circles h2 {
+    padding-top: 0.9em;
+    font-size: .8em;
+  }
+
+  .total-btn {
+    display: none;
+  }
+
+  .stats-btn {
+    display: none;
+  }
+
+  .chart {
+    width: 470px;
+    height: 215px;
+    margin: 1em 2em 0.2em 1em;
+  }
+  
+  .bottom-content {
+    padding: 1em;
+  }
+
+  table {
+    margin: 1em;
+  }
+  
+  .column-one {
+    padding: .5em .5em;
+  }
+
+  .paragraph {
+    font-size: .5em;
+  }
+  
+  td {
+    font-size: .7em;
+  }
+
+  .albus {
+    display: none;
+  }
+
+  .right-of-table-box1 {
+    margin-left: 3em;
+  }
+
+  .social-btn {
+    font-size: .9em;
+    width: 20em;
+  }
+
+  .right-of-table-box2 {
+    width: 17.5em;
+    margin: 2em 2em 2em 3em;
+  }
+
+  .side-inputs {
+    width: 17.7em;
+  }
+
+  .bottom-input {
+    width: 24em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .side-bar {
+    width: 20%;
+    height: 2050px;
+  }
+
+  .right-side {
+    width: 80%;
+  }
+
+  .pro-pic {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .3em;
+  }
+
+  .side-bar p {
+    margin: .2em;
+    font-size: .2em;
+  }
+
+  .side-bar ul {
+    padding-left: 0.1em;
+  }
+
+  .side-bar li {
+    font-size: 0.05em;
+  }
+
+  .menu-btn,
+  .profile-btn,
+  .calendar-btn {
+    border: none;
+  }
+
+  .search-bar {
+    font-size: .01em;
+    height: 1em;
+    width: 67%;
+  }
+
+  .nav-btn {
+    font-size: .1em;
+    width: 4%;
+    height: 1.2em;
+  }
+
+  .job-info h5 {
+    font-size: .5em;
+  }
+
+  .job-btns{
+    top: 6.2em;
+  }
+
+  .job-btn {
+    font-size: .1em;
+    padding: 6px;
+  }
+
+  .open {
+    padding: 3px 10px;
+  }
+
+  .bookmark {
+    padding: 6px 8px;
+  }
+
+  .vertical-list li {
+    margin-right: 26px;
+    font-size: .7em;
+  }
+
+  .main-content {
+    display: block;
+  }
+
+  .chart {
+    height: 140px;
+    margin: 1em .2em 1em .5em;
+    width: 240px;
+  }
+
+  .bottom-content {
+    display: block;
+    padding: .75em;
+  }
+
+  .table {
+    width: 14em;
+    margin-left: .2em;
+  }
+
+  .social-btn {
+    width: 16em;
+  }
+
+  .right-of-table-box1 {
+    margin-left: .1em;
+  }
+  
+  .right-of-table-box2 {
+    width: 14.5em;
+    margin: 1em .1em;
+  }
+
+  .side-inputs {
+    width: 12.5em;
+  }
+
+  .side-inputs-btn{
+    width: 7.5em;
+  }
+
+  .bottom-input {
+    width: 20em;
+  }
 }
