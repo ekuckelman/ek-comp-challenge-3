@@ -192,7 +192,7 @@ i {
   display: flex;
 }
 
-.circle {
+.circles {
   border: 7px solid;
   display: inline-block;
   border-radius: 50%;
@@ -202,7 +202,7 @@ i {
   color:#313335;
 }
 
-.circle h2 {
+.circles h2 {
   padding-top: 2.3em;
 }
 
@@ -235,6 +235,10 @@ i {
   padding: 8px 20px;
 }
 
+.total-btn:hover {
+  background-color:#2c8437d1;
+}
+
 .stats-btn {
   border-radius: 30px;
   font-size: 1em;
@@ -243,6 +247,10 @@ i {
   margin-bottom: 3em;
   cursor: pointer;
   padding: 8px 20px;
+}
+
+.stats-btn:hover {
+  background-color:#2c8437d1;
 }
 
 .bottom-content {
@@ -292,10 +300,6 @@ table tr {
   font-weight: bold;
 }
 
-.right-of-table-boxes {
-
-}
-
 .right-of-table-box1 {
   margin-left: 2em;
 }
@@ -336,7 +340,47 @@ table tr {
   background-color: #AE2626;
 }
 
-.right-of-table-box2 {
-
+.google:hover {
+  background-color: #9f2929;
 }
 
+.right-of-table-box2 {
+  width: 23em;
+  margin: 2em;
+  border-bottom: 1px solid;
+}
+
+.right-of-table-box2 p {
+  padding: .8em 0;
+  font-size: 0.9em;
+}
+
+.side-inputs {
+  height: 3em;
+  width: 25em;
+  margin: 2em 0 4em 0;
+  border: none;
+}
+
+.side-inputs-btn {
+  height: 3.3em;
+  margin: 0;
+  position: relative;
+  right: 5px;
+  width: 7.2em;
+  border: none;
+  background-color: #2c8437d1;
+  color: white;
+}
+
+.side-inputs-btn:hover {
+  background-color: #4ad85cd1;
+}
+
+.bottom-input {
+  width: 33em;
+}
+
+.bottom-bx {
+  border-bottom: none;
+}
