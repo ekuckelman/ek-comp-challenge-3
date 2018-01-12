@@ -1022,7 +1022,7 @@ td {
   }
 
   .chart {
-    width: 490px;
+    width: 88%;
     margin-top: 1em; 
     margin-left: 2em;
   }
@@ -1043,7 +1043,7 @@ td {
   .right-of-table-boxes {
     margin-left: 2em; 
   }
-}
+
 
 @media screen and (max-width: 320px){
   .menu-btn,
