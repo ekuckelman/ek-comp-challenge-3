@@ -1043,14 +1043,57 @@ td {
   .right-of-table-boxes {
     margin-left: 2em; 
   }
+}
+
+@media screen and (max-width: 375px){
+  .search-bar {
+    width: 70%;
+  }
+
+  .menu-btn,
+  .profile-btn, 
+  .calendar-btn {
+    border-right: none;
+  }
+  
+  .third-circle {
+    margin-left: 28.5%;
+  }
+
+  .chart {
+    margin: 1em 1em 0 1em;
+    width: 91%;
+  }
+
+  .table {
+    margin: 0;
+    width: 99%;
+  }
+
+  .right-of-table-boxes {
+    margin-left: 0;
+  }
+
+  .right-of-table-box1 {
+    margin-left: 0;
+  }
+
+  .social-btn {
+    width: 100%;
+  }
+
+  .right-of-table-box2 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .side-inputs {
+    width: 78%;
+  }
+}
 
 
 @media screen and (max-width: 320px){
-  .menu-btn,
-  .profile-btn,
-  .calendar-btn {
-    border: none;
-  }
 
   .search-bar {
     font-size: .01em;
@@ -1120,8 +1163,7 @@ td {
   }
 
   .social-btn {
-    width: 97%;
-    margin-left: 2%;
+    width: 99%;
   }
 
   .right-of-table-boxes {
