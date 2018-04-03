@@ -1093,12 +1093,16 @@ td {
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
+  .menu-btn {
+    margin-left: 1.5%;
+  }
   .search-bar {
     font-size: .01em;
     height: 2.2em;
-    width: 67%;
+    width: 63%;
+    padding-left: 1%;
   }
 
   .nav-btn {
@@ -1180,14 +1184,14 @@ td {
   }
 
   .side-inputs {
-    width: 70%;
+    width: 71%;
   }
 
   .side-inputs-btn{
-    width: 24%;
+    width: 21%;
   }
 
   .bottom-input {
-    width: 20em;
+    width: 25em;
   }
 }
